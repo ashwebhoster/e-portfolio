@@ -443,7 +443,7 @@ section{
     text-transform: uppercase;
 }
 
-.section-services{
+.section-certifications{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -451,7 +451,7 @@ section{
     grid-gap: 2rem;
 }
 
-.section-services .service-box{
+.section-certifications .certifications-box{
     flex: 1 1 18rem;
     padding: 2rem 1rem 2rem;
     text-align: center;
@@ -461,16 +461,16 @@ section{
 
 }
 
-.service-btn{
+.certifications-btn{
     width: auto;
     justify-content: center;
 }
 
-.service-box:hover{
+.certifications-box:hover{
     transform: translate(-.7rem);
 }
 
-.service-icon{
+.certifications-icon{
     border: 2px solid var(--hover-color);
     padding: 2rem;
     background: var(--bg-color);
@@ -484,12 +484,12 @@ section{
     outline: 3px solid var(--bg-color);
 }
 
-.service-box h3{
+.certifications-box h3{
     margin-top: 10px;
     font-size: 1.5rem;
 }
 
-.service-box p{
+.certifications-box p{
     margin: .5rem 0 1.5rem 0;
     font-weight: 300;
     letter-spacing: 1px;
@@ -623,7 +623,7 @@ section{
     box-shadow: var(--neon-box-shadow);
 }
 
-/*portfolio section css.........*/
+/*project section css.........*/
 
 .fillter-buttons{
     margin: 2rem;
